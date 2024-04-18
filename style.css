@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-grid {
+    width: 80%;
+    max-width: 1400px;
+    margin: 0 auto;
+
+}
+
+.banner {
+    height: 100vh;
+
+    background-image: linear-gradient(260deg, rgba(245,245,245,1) 0%, rgba(186,186,186,0.5) 56%), url(img/bg-room.png);
+    background-repeat: no-repeat;
+    
+    background-position: 150% 50%;
+    
+    
+}
