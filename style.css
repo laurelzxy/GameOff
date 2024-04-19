@@ -5,19 +5,128 @@
 }
 
 .container-grid {
-    width: 80%;
+    width: 90%;
     max-width: 1400px;
     margin: 0 auto;
-
+    
 }
+
+
 
 .banner {
-    height: 100vh;
-
-    background-image: linear-gradient(260deg, rgba(245,245,245,1) 0%, rgba(186,186,186,0.5) 56%), url(img/bg-room.png);
-    background-repeat: no-repeat;
+    height: 20vh;
     
     background-position: 150% 50%;
-    
+}
+
+
+header {
+    height: 170px;
     
 }
+
+header div.container-grid {
+    height: 100%;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+header img {
+    width: 260px;
+    
+}
+
+
+.menu {
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu a {
+    color: black;
+    
+    font-size: 24px;
+    font-family: "kode mono";
+    text-decoration: underline transparent;
+    text-decoration-thickness: 2px;
+    
+    transition: text-decoration 1000ms ease;
+    
+}
+
+.menu div button {
+    width: 120%;
+    height: 60px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: #90DBD4;
+    
+    border: black 100%;
+    
+    color: black;
+    font-family: "kode mono";
+    
+    font-size: 26px;
+    font-weight: 750px;
+    font-weight: bold;
+    
+   
+}
+
+
+
+ #empresa {
+
+     height: 800px;
+     
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+     
+     text-align: start;
+     padding: 10px 10%;
+    }
+
+
+    section{
+        display: flex;
+    }
+    
+     section{
+        background-image: linear-gradient(260deg, rgba(245,245,245,1) 0%, rgba(186,186,186,0.5) 56%), url(img/bg-room.png);
+        background-repeat: no-repeat;
+        background-size: auto;
+        background-position: 100%;
+
+        
+        
+        
+        
+        background-position: 100% 30%;
+        
+    }
+
+    .conteudo-banner{
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+    }
+    
+    section p{
+        width: 686px;
+    }
+    
+    
+    
+    
