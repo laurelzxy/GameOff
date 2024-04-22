@@ -4,10 +4,17 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #F5F5F5;
+}
+
+
+
 .container-grid {
     width: 90%;
     max-width: 1400px;
     margin: 0 auto;
+    background-color: #F5F5F5;
     
 }
 
@@ -17,6 +24,7 @@
     height: 20vh;
     
     background-position: 150% 50%;
+    background-color: #F5F5F5;
 }
 
 
@@ -92,24 +100,24 @@ header img {
      flex-direction: column;
      justify-content: space-around;
      
+     
      text-align: start;
      padding: 10px 10%;
+     background-color: #F5F5F5;
     }
 
 
-    section{
+    #empresa{
         display: flex;
     }
     
-     section{
-        background-image: linear-gradient(260deg, rgba(245,245,245,1) 0%, rgba(186,186,186,0.5) 56%), url(img/bg-room.png);
-        background-repeat: no-repeat;
-        background-size: auto;
+    #empresa{
+        background: rgba(245, 245, 245, 0);
+        background: linear-gradient(261deg, rgba(245,245,245,1) 0%, rgba(245, 245, 245, 0.452) 100%), url(img/bg-class.png);
+        background-repeat:  no-repeat;
+        background-size: 55%;
         background-position: 100%;
-
-        
-        
-        
+        margin-right: 2px;
         
         background-position: 100% 30%;
         
@@ -123,9 +131,118 @@ header img {
 
     }
     
-    section p{
-        width: 686px;
+    #empresa p{
+        width: 500px;
     }
+
+    .conteudo-banner {
+        width: 500px;
+    
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+        flex-direction: column;
+        
+        font-family: "kode mono";
+        text-align: left;
+        margin-bottom: 300px;
+        margin-top: 5px;
+
+    }
+
+    h2{
+        font-size: 50px;
+        padding: 100px 100px;
+        text-align: center;
+        
+    }
+
+    p {
+         margin-bottom: 50px;
+         font-family: "montserrat";
+         font-size: 19px;
+    }
+
+        #empresa button {
+        width: 50%;
+        height: 60px;
+        
+          background-color: #90DBD4;
+
+        font-family: 'kode mono';
+        font-size: 17px;
+        font-weight: bold 100%;
+
+        cursor: pointer;
+        transition: background-color 500ms;
+
+        margin-right: 10px;
+/* 
+        text-transform: uppercase; */
+        margin: 0 auto;
+
+    }
+
+    
+
+    #cases {
+        background-color: #464646;
+
+        
+
+        height: 100%;
+
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+     
+    }
+    
+    #cases .container-grid {
+        height: 100%;
+    
+        display: flex;
+     
+        justify-content: space-between;
+        align-items: center;
+        background-color: unset;
+        
+        align-items: center;
+        
+    
+     }
+
+    #cases h2 {
+        align-items: center;
+        font-family: "kode mono";
+        font-size: 30px;
+        margin-left: 45px;
+        color: white;
+    }
+
+    #cases p{
+        font-family: "montserrat";
+        color: white;
+        align-items: center;
+        font-size: 15px;
+        margin-left: 30px;
+       display: block;
+
+    }
+    
+    #cases .texto {
+
+        display: flex;
+        flex-direction: column;
+
+    }
+
+
+
+    
+     
+
     
     
     
