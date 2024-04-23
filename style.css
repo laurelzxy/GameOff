@@ -15,14 +15,14 @@ body {
     max-width: 1400px;
     margin: 0 auto;
     background-color: #F5F5F5;
-    
+
 }
 
 
 
 .banner {
     height: 20vh;
-    
+
     background-position: 150% 50%;
     background-color: #F5F5F5;
 }
@@ -30,22 +30,22 @@ body {
 
 header {
     height: 170px;
-    
+
 }
 
 header div.container-grid {
     height: 100%;
-    
+
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+
 }
 
 
 header img {
     width: 260px;
-    
+
 }
 
 
@@ -58,192 +58,272 @@ header img {
 
 .menu a {
     color: black;
-    
+
     font-size: 24px;
     font-family: "kode mono";
     text-decoration: underline transparent;
     text-decoration-thickness: 2px;
-    
+
     transition: text-decoration 1000ms ease;
-    
+
 }
 
 .menu div button {
     width: 120%;
     height: 60px;
-    
+
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
     background-color: #90DBD4;
-    
+
     border: black 100%;
-    
+
     color: black;
     font-family: "kode mono";
-    
+
     font-size: 26px;
     font-weight: 750px;
     font-weight: bold;
-    
-   
+
+
 }
 
 
 
- #empresa {
+#empresa {
 
-     height: 800px;
-     
-     display: flex;
-     flex-direction: column;
-     justify-content: space-around;
-     
-     
-     text-align: start;
-     padding: 10px 10%;
-     background-color: #F5F5F5;
-    }
+    height: 800px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 
 
-    #empresa{
-        display: flex;
-    }
-    
-    #empresa{
-        background: rgba(245, 245, 245, 0);
-        background: linear-gradient(261deg, rgba(245,245,245,1) 0%, rgba(245, 245, 245, 0.452) 100%), url(img/bg-class.png);
-        background-repeat:  no-repeat;
-        background-size: 55%;
-        background-position: 100%;
-        margin-right: 2px;
-        
-        background-position: 100% 30%;
-        
-    }
+    text-align: start;
+    padding: 10px 10%;
+    background-color: #F5F5F5;
+}
 
-    .conteudo-banner{
-        padding: 20px;
-        display: flex;
-        align-items: center;
-        flex-direction: column;
 
-    }
-    
-    #empresa p{
-        width: 500px;
-    }
+#empresa {
+    display: flex;
+}
 
-    .conteudo-banner {
-        width: 500px;
-    
-        display: flex;
-        justify-content: space-between;
-        align-items: start;
-        flex-direction: column;
-        
-        font-family: "kode mono";
-        text-align: left;
-        margin-bottom: 300px;
-        margin-top: 5px;
+#empresa {
+    background: rgba(245, 245, 245, 0);
+    background: linear-gradient(261deg, rgba(245, 245, 245, 1) 0%, rgba(245, 245, 245, 0.452) 100%), url(img/bg-class.png);
+    background-repeat: no-repeat;
+    background-size: 55%;
+    background-position: 100%;
+    margin-right: 2px;
 
-    }
+    background-position: 100% 30%;
 
-    h2{
-        font-size: 50px;
-        padding: 100px 100px;
-        text-align: center;
-        
-    }
+}
 
-    p {
-         margin-bottom: 50px;
-         font-family: "montserrat";
-         font-size: 19px;
-    }
+.conteudo-banner {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 
-        #empresa button {
-        width: 50%;
-        height: 60px;
-        
-          background-color: #90DBD4;
+}
 
-        font-family: 'kode mono';
-        font-size: 17px;
-        font-weight: bold 100%;
+#empresa p {
+    width: 500px;
+}
 
-        cursor: pointer;
-        transition: background-color 500ms;
+.conteudo-banner {
+    width: 500px;
 
-        margin-right: 10px;
-/* 
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-direction: column;
+
+    font-family: "kode mono";
+    text-align: left;
+    margin-bottom: 300px;
+    margin-top: 5px;
+
+}
+
+h2 {
+    font-size: 50px;
+    padding: 100px 100px;
+    text-align: center;
+
+}
+
+p {
+    margin-bottom: 50px;
+    font-family: "montserrat";
+    font-size: 19px;
+}
+
+#empresa button {
+    width: 50%;
+    height: 60px;
+
+    background-color: #90DBD4;
+
+    font-family: 'kode mono';
+    font-size: 17px;
+    font-weight: bold 100%;
+
+    cursor: pointer;
+    transition: background-color 500ms;
+
+    margin-right: 10px;
+    /* 
         text-transform: uppercase; */
-        margin: 0 auto;
+    margin: 0 auto;
 
-    }
+}
 
-    
 
-    #cases {
-        background-color: #464646;
 
-        
-
-        height: 100%;
+#cases {
+    background-color: #464646;
+    height: 100%;
 
     display: flex;
 
     justify-content: space-between;
     align-items: center;
-     
-    }
+}
+
+#cases .container-grid {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: unset;
+}
+
+#cases .texto {
+
+    width: 100%;
+    height: 250px;
+
+}
+
+#cases .texto img {
+    width: 130px;
+    height: 130px;
+    padding-top: 20px;
+    position: relative;
+    left: 50px;
+}
+
+#cases .texto .conteudo {
+    display: flex;
+    flex-direction: column;
+
+    width: 90%;
+    height: 300px;
+}
+
+#cases h2 {
+
+
+    width: 100%;
+    font-family: "kode mono";
+    font-size: 35px;
+
+    position: relative;
+    bottom: 50px;
+
+    color: white;
+}
+
+#cases .textos p {
+    width: 1000px;
+    font-family: "kode mono";
+    color: white;
+    margin-bottom: 0;
     
-    #cases .container-grid {
-        height: 100%;
-    
-        display: flex;
-     
-        justify-content: space-between;
+
+    font-size: 15px;
+}
+
+#cases .textos {
+
+    position: relative;
+    bottom: 140px;
+    left: 40px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+#cases .textos p:last-child {
+
+    position: relative;
+    left: 150px
+
+}
+
+#cases .texto {
+
+    display: flex;
+
+}
+
+#cases .imagens {
+    /* display: flex;
         align-items: center;
-        background-color: unset;
-        
-        align-items: center;
-        
+        justify-content: center ;
+        padding-right: 230px;
+        margin-right: 10px; */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+
+}
+
+#cases .imagens img {
+
+    width: 30%;
+    height: 50%;
+    margin-bottom: 100px;
+
+}
+
+
+
+section .jogos {
+    height: 510px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+section h3 {
+    font-family: "kode mono";
+    /* display: flex; */
+    font-size: 50px;
+    display: flex;
+    align-items: start;
+    margin-left: 240px;
+}
+
+section p { 
+    /* width: 100%; */
+    font-family: "montserrat";
+    font-size: 18px;
+
     
-     }
-
-    #cases h2 {
-        align-items: center;
-        font-family: "kode mono";
-        font-size: 30px;
-        margin-left: 45px;
-        color: white;
-    }
-
-    #cases p{
-        font-family: "montserrat";
-        color: white;
-        align-items: center;
-        font-size: 15px;
-        margin-left: 30px;
-       display: block;
-
-    }
+    text-align: center;
     
-    #cases .texto {
+    margin-bottom: 50px;
+    font-family: "montserrat";
+    font-size: 19px;
 
-        display: flex;
-        flex-direction: column;
-
-    }
-
-
-
-    
-     
-
-    
-    
-    
-    
+}
