@@ -244,7 +244,7 @@ p {
     font-family: "kode mono";
     color: white;
     margin-bottom: 0;
-    
+
 
     font-size: 15px;
 }
@@ -265,7 +265,6 @@ p {
 
     position: relative;
     left: 150px
-
 }
 
 #cases .texto {
@@ -296,34 +295,104 @@ p {
 }
 
 
-
-section .jogos {
-    height: 510px;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-
-}
-
-section h3 {
+.jogos h3 {
     font-family: "kode mono";
     /* display: flex; */
     font-size: 50px;
     display: flex;
     align-items: start;
-    margin-left: 240px;
+    margin-top: 90px;
 }
 
-section p { 
+.jogos p {
     /* width: 100%; */
     font-family: "montserrat";
     font-size: 18px;
 
-    
-    text-align: center;
-    
-    margin-bottom: 50px;
-    font-family: "montserrat";
-    font-size: 19px;
 
+    text-align: center;
+    margin-bottom: 0;
+
+    font-family: "montserrat";
+    padding: 25px;
+
+}
+
+#gamificado .jogos .textos .baixo {
+
+    position: relative;
+    bottom: 30px;
+
+}
+
+.jogos p {
+    position: relative;
+
+
+}
+
+#gamificado {
+
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-left: 150px;
+
+}
+
+#gamificado img {
+
+    width: 30%;
+    height: 65%;
+    margin-top: 90px;
+    margin-left: 50px;
+
+
+}
+
+
+#gamificado .jogos {
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.jogos button {
+    background-color: #90DBD4;
+    height: 100px;
+    width: 320px;
+
+    font-family: "kode mono";
+
+    font-size: 30px;
+
+}
+
+#contato {
+
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+
+    background-image: linear-gradient(0deg, rgba(255, 255, 255, 0.91) 4%, rgba(94, 94, 94, 0.61) 47%, rgba(26, 26, 26, 0.9445028011204482) 90%), url(img/background.png);
+
+}
+
+#contato .text {
+    color: white;
+    display: flex;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    font-family: "kode mono";
+
+}
+
+form .campo {
+    
 }
