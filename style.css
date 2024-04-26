@@ -28,6 +28,10 @@ body {
 }
 
 
+#empresa img{
+    display: none;
+}
+
 header {
     height: 170px;
 
@@ -420,7 +424,7 @@ background-color: #90DBD4;
     /* padding-bottom: 100px;
     margin-bottom: 0px; */
 	
-	background-image: linear-gradient(0deg, rgb(255, 255, 255) 4%, rgba(94, 94, 94, 0.61) 47%, rgba(26, 26, 26, 0.9445028011204482) 90%), url(img/background.png);
+	background-image: linear-gradient(0deg, rgb(250, 255, 255) 4%, rgba(94, 94, 94, 0.61) 47%, rgba(26, 26, 26, 0.9445028011204482) 90%), url(img/background.png);
 }
 
 #contato h2{
@@ -446,7 +450,7 @@ background-color: #90DBD4;
     color: black;
     font-family: "kode mono";
     margin-bottom: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 60px;
     
 }
 
@@ -569,14 +573,60 @@ background-color: #90DBD4;
 
  }
 
- 
-footer{
-     clear: both;
-    height: 250px;
-
-    background: none;
-    
+ footer{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 300px;
  }
+
+ 
+footer .container-grid{
+     clear: both;
+    
+    background: transparent;
+    margin-top: 50px;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+ }
+
+
+ div.icones-redes{
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+ }
+
+ .icones-redes svg{
+    margin: 20px;
+ }
+
+ 
+
+footer .container-grid img {
+    margin-bottom: 140px;
+    margin-left: 60px;
+   
+}
+
+ .diretos p{
+    margin: 0 auto;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+
+
+ }
+
+ .icones-redes a {
+    color: black;
+ }
+
+ 
 
  
 

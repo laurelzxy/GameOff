@@ -1,0 +1,112 @@
+@media screen and (max-width: 1500px) {
+    #empresa{
+        background: unset;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        
+
+    }
+
+    #empresa img{
+        display: unset;
+        margin-top: 330px;
+        margin-bottom: -200px;
+
+        width: 340px;
+
+    }
+
+    #empresa h2 {
+        margin-top: 65px;
+        margin-left: 13px;
+    }
+
+    #empresa p {
+        margin-top: -37px;
+    }
+
+    #empresa button {
+        margin-bottom: 70px;
+    }
+
+    nav.menu{
+        display: none;
+
+    }
+
+    header svg {
+        fill: #26BFB0;
+        width: 50px;
+    }
+
+    nav.menu {
+        height: 500px;
+        width: 350px;
+
+        padding: 0px  30px;
+
+        flex-direction: column;
+
+        justify-content: space-around;
+        align-items: center;
+
+        background-color: #000000f0;
+
+        position: absolute;
+        top: 165px;
+        right: 0px;
+    }
+
+   
+
+    #cases h2 {
+        font-size: 20px;
+    }
+
+    #cases p {
+        margin-bottom: unset;
+        margin-bottom: 200px;
+        padding-top: 13px;
+        
+    }
+
+    .jogos h3 {
+        font-size: 40px;
+    }
+     
+    .jogos p{
+        font-size: unset;
+        font-size: 17px;
+        
+
+    }
+
+    .jogos button {
+        font-size: 20px;
+        width: 235px;
+        height: 65px;
+    }
+    
+    #gamificado img {
+        width: 340px;
+        height: 380px;
+    }
+    
+    #contato .text h2 {
+        font-size: 30px;
+        
+    }
+
+    #contato .text p {
+        font-size: 15px;
+        margin-top: -30px;
+    }
+
+    #contato form {
+        
+    }
+
+}
