@@ -105,8 +105,23 @@
         margin-top: -30px;
     }
 
-    #contato form {
+    
+
+}
+
+@media screen and (max-width: 1169px) {
+
+    #cases .texto img {
+        width: unset;
+        width: 70px;
         
+        padding-bottom: 43px;
+    }
+
+    #cases h2 {
+        font-size: 18px;
+        
+
     }
 
 }

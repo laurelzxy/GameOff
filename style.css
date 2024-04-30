@@ -282,7 +282,7 @@ background-color: #90DBD4;
 #cases .textos p:last-child {
 
     position: relative;
-    left: 150px
+    text-align: center;
 }
 
 #cases .texto {
@@ -619,7 +619,6 @@ footer .container-grid img {
     align-items: end;
     justify-content: end;
 
-
  }
 
  .icones-redes a {
@@ -627,6 +626,3 @@ footer .container-grid img {
  }
 
  
-
- 
-
