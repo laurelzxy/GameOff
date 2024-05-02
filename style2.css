@@ -123,5 +123,19 @@
         
 
     }
+    #cases .textos p {
+        /* font-size: unset; */
+        font-size: 7px;
+        width: unset;
+    }
+
+    #cases .imagens img {
+        width: unset;
+        width: 28px;
+    }
+
+    #gamificado img {
+        
+    }
 
 }
