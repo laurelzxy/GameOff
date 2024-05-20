@@ -153,7 +153,7 @@
     }
 
     #gamificado img {
-        width: 0px;
+        display: none;
         
     }
 
@@ -179,6 +179,12 @@
     header button{
         display: unset;
        border: none;
-    }
+    }  
+}
 
+@media screen and (max-width: 1000px){
+    
+    #contato form {
+        width: 80%;
+    }
 }
