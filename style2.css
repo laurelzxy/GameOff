@@ -127,6 +127,7 @@
         /* font-size: unset; */
         font-size: 7px;
         width: unset;
+        
     }
 
     #cases .imagens img {
@@ -135,7 +136,7 @@
     }
 
     #gamificado img {
-        
+        width: 0px;
     }
 
 }

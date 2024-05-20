@@ -1,3 +1,8 @@
+@font-face {
+    @import url(https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap);
+    font-family:'Courier New', Courier, monospace 'kode mono';
+}
+
 * {
     margin: 0;
     padding: 0;
