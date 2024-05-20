@@ -32,10 +32,8 @@
         margin-bottom: 70px;
     }
 
-    nav.menu{
-        display: none;
-
-    }
+    
+    
 
     header svg {
         fill: #26BFB0;
@@ -53,7 +51,10 @@
         justify-content: space-around;
         align-items: center;
 
-        background-color: #000000f0;
+        background-color: #fff;
+        background-image: url(img/fundo.png);
+        ;
+        
 
         position: absolute;
         top: 165px;

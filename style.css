@@ -1,7 +1,9 @@
 @font-face {
-    @import url(https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap);
+    src: url(https://github.com/isaozler/kode-mono);
     font-family:'Courier New', Courier, monospace 'kode mono';
 }
+
+
 
 * {
     margin: 0;
