@@ -34,6 +34,18 @@ body {
     background-color: #F5F5F5;
 }
 
+nav button{
+    display: none;
+}
+
+header #menos {
+    display: none;
+}
+
+.menu-fechado {
+    display: none;
+}
+
 
 #empresa img{
     display: none;
@@ -87,7 +99,7 @@ header img {
     justify-content: center;
     align-items: center;
 
-    background-color: #26BFB0;
+    background-color: rgb(38, 191, 176);
     
 
     border: black 100%;
@@ -306,7 +318,6 @@ background-color: #90DBD4;
         margin-right: 10px; */
     width: 100%;
     display: flex;
-    flex-direction: row;
     gap: 50px;
 
 }
